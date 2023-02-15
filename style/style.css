@@ -3,6 +3,7 @@
 :root {
     --btn-color :#E02C6D ;
     --star-rating :#FB8200 ;
+    --sec2-color : #0A0826;
 }
 
 /* navigation */
@@ -24,6 +25,10 @@
     text-decoration: none;
     color: black;
 }
+.nav-links:hover{
+    color: var(--btn-color);
+}
+
 
 /* banner */
 
@@ -85,7 +90,15 @@
 
 .sponsor-icon {
     list-style: none;
+    transition: transform .3s;
 }
+
+.sponsor-icon:hover {
+    list-style: none;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
 /* section - 1 */
 .section1 {
     display: flex;
@@ -139,4 +152,81 @@
 .sec1-card-1:hover{
     border: 1px solid gray;
     box-shadow: 0px 0px 40px rgba(24, 18, 18, 0.637);
+}
+
+/* section-2 */
+
+.section2 {
+    display: flex;
+    margin: 100px 165px;
+    gap: 96px;
+    align-items: center;
+}
+.sec2-title {
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--sec2-color);
+}
+.sec2-des{
+    font-size: 16px;
+    font-weight: 700;
+    color: #6C6C6C;
+    margin-top: 16px;
+    margin-bottom: 26px;
+}
+
+.sec2-btn {
+    border-radius: 0;
+    
+}
+.sec2-btn:hover {
+    border-radius: 0;
+}
+
+/* footer */
+
+footer{
+    background-color: var(--sec2-color);
+    color: white;
+    text-align: center;
+    
+}
+.footer {
+    padding: 50px 0;
+    
+}
+.footer-title {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 3px;
+    font-family: 'Manrope', sans-serif !important;
+
+}
+.copyright{
+    padding-top: 3px;
+    padding-bottom: 17px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+
+}
+.footer-des {
+    
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Manrope', sans-serif !important;
+
+}
+
+.footer-list-icon{
+    list-style: none;
+    transition: color .5s , transform .2s;
+}
+.footer-list-icon:hover{
+    cursor: pointer;
+    color: var(--btn-color);
+    transform: scale(1.5);
 }
