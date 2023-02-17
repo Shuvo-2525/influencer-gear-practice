@@ -1,5 +1,4 @@
 /* custom css */
-
 :root {
     --btn-color :#E02C6D ;
     --star-rating :#FB8200 ;
@@ -13,7 +12,6 @@
     justify-content: space-between;
     padding: 87px 120px;
 }
-
 .nav-list {
     display: flex;
     gap: 34px;
@@ -29,7 +27,6 @@
     color: var(--btn-color);
 }
 
-
 /* banner */
 
 .banner {
@@ -38,15 +35,13 @@
     justify-content: center;
     padding: 0 165px 0 120px;
 }
-
 .banner-title {
     font-size: 52px;
     font-weight: 700;
 }
-
 .banner-des {
     font-size: 16px;
-    font-weight: 600px;
+    font-weight: 600;
     margin-bottom: 26px;
 }
 .banner-img img {
@@ -82,17 +77,29 @@
 .sponsor {
     padding: 100px 165px ;
 }
+
 .sponsor-list {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 60px;
 }
-
+.other-sponsors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.first-sponsor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
 .sponsor-icon {
     list-style: none;
     transition: transform .3s;
 }
-
 .sponsor-icon:hover {
     list-style: none;
     transform: scale(1.5);
@@ -114,12 +121,10 @@
     gap: 30px;
     justify-content: center;
 }
-
 .sec1-card-title {
     padding: 16px 0 6px 0;
     font-size: 28px;
     font-weight: 500;
-
 }
 .sec1-star-rating {
     list-style: none;
@@ -137,7 +142,6 @@
     width: 300px;
     border-radius: 5px;
 }
-
 .sec1-card-price {
     font-size: 24px;
     font-weight: 400;
@@ -174,10 +178,8 @@
     margin-top: 16px;
     margin-bottom: 26px;
 }
-
 .sec2-btn {
     border-radius: 0;
-    
 }
 .sec2-btn:hover {
     border-radius: 0;
@@ -188,39 +190,31 @@
 footer{
     background-color: var(--sec2-color);
     color: white;
-    text-align: center;
-    
+    text-align: center; 
 }
 .footer {
-    padding: 50px 0;
-    
+    padding: 50px 0; 
 }
 .footer-title {
     font-size: 24px;
     font-weight: 700;
     padding-bottom: 3px;
     font-family: 'Manrope', sans-serif !important;
-
 }
 .copyright{
     padding-top: 3px;
     padding-bottom: 17px;
 }
-
 .footer-list {
     display: flex;
     gap: 16px;
     justify-content: center;
-
 }
 .footer-des {
-    
     font-size: 14px;
     font-weight: 700;
     font-family: 'Manrope', sans-serif !important;
-
 }
-
 .footer-list-icon{
     list-style: none;
     transition: color .5s , transform .2s;
@@ -230,3 +224,6 @@ footer{
     color: var(--btn-color);
     transform: scale(1.5);
 }
+/* ___________ */
+
+

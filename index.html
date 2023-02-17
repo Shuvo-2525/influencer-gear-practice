@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css">
     <link rel="stylesheet" href="style/universal-reset.css">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/mobile-version.css">
     <script src="https://kit.fontawesome.com/dfd7cafeef.js" crossorigin="anonymous"></script>
+
     <title>Influencer Gear</title>
 </head>
 <body>
@@ -23,7 +25,7 @@
                 <li class="nav-list-item"><a href="#" class="nav-links">Sign up</a></li>
                 <li class="nav-list-item"><a href="#" class="nav-links">Log in</a></li>
                 <li class="nav-list-item"><a href="#" class="nav-links"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                <li class="nav-list-item"><a href="#" class="nav-links"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li class="nav-list-item visible"><a href="#" class="nav-links"><i class="fa-solid fa-cart-shopping"></i></a></li>
             </ul>
         </nav>
         <div class="banner">
@@ -44,13 +46,19 @@
         </div>
         <div class="sponsor">
             <ul class="sponsor-list">
-                <li class="sponsor-icon"><img src="assets/logos/Alibaba.png" alt=""></li>
-                <li class="sponsor-icon"><img src="assets/logos/Amazon.png" alt=""></li>
-                <li class="sponsor-icon"><img src="assets/logos/Daraz.pk Logo.png" alt=""></li>
-                <li class="sponsor-icon"><img src="assets/logos/Ebay.png" alt=""></li>
-                <li class="sponsor-icon"><img src="assets/logos/Rakuten.png" alt=""></li>
-                <li class="sponsor-icon"><img src="assets/logos/Walmart.png" alt=""></li>
-                <li class="sponsor-icon"><img src="assets/logos/Target.png" alt=""></li>
+                <div class="first-sponsor">
+                <li class="sponsor-icon " ><img src="assets/logos/Alibaba.png" alt=""></li>
+                <li class="sponsor-icon " ><img src="assets/logos/Amazon.png" alt=""></li>
+                <li class="sponsor-icon " ><img src="assets/logos/Daraz.pk Logo.png" alt=""></li>
+                <li class="sponsor-icon " ><img src="assets/logos/Ebay.png" alt=""></li>
+            </div>
+                <div class="other-sponsors">
+
+                
+                <li class="sponsor-icon " ><img src="assets/logos/Rakuten.png" alt=""></li>
+                <li class="sponsor-icon " ><img src="assets/logos/Walmart.png" alt=""></li>
+                <li class="sponsor-icon " ><img src="assets/logos/Target.png" alt=""></li>
+            </div>
             </ul>
         </div>
     </header>
@@ -243,11 +251,11 @@
             <div class="sec2-img">
                 <img src="assets/images/gear.png" alt="" srcset="">
             </div>
-            <sec2-info>
+            <div class="sec2-info">
                 <h2 class="sec2-title">Featured products at one place</h2>
                 <p class="sec2-des">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                 <a href="" class="banner-btn sec2-btn">Join Now  <i class="fa-solid fa-arrow-right"></i></a>
-            </sec2-info>
+            </div>
         </section>
     </main>
     <!-- footer section -->
